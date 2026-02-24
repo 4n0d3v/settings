@@ -1,0 +1,28 @@
+BasedOnStyle: LLVM
+
+# Largeur plus moderne mais raisonnable
+ColumnLimit: 100
+
+# Evite les cathédrales verticales
+BinPackArguments: true
+BinPackParameters: true
+AllowAllArgumentsOnNextLine: true
+AllowAllParametersOfDeclarationOnNextLine: true
+
+# Supprime les alignements gigantesques après "("
+AlignAfterOpenBracket: DontAlign
+ContinuationIndentWidth: 4
+
+# Rend les chaînes d'appels plus naturelles
+PenaltyBreakBeforeFirstCallParameter: 1
+PenaltyBreakArgument: 1
+PenaltyBreakBeforeMemberAccess: 0
+
+# Garde une discipline raisonnable
+BreakBeforeBinaryOperators: None
+BreakConstructorInitializers: BeforeComma
+ConstructorInitializerIndentWidth: 4
+
+# Lisibilité moderne
+SpaceBeforeParens: ControlStatements
+SpacesInParentheses: false
